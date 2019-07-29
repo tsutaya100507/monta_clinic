@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  font-family: "Noto Sans JP";
+  color: rgb(90, 87, 87);
+}
+
+.wrapper {
+  /* min-height: 100vh; */
+  /* position: relative;
+  padding-bottom: 80px;
+  box-sizing: border-box; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 39px;
+  margin-right: 10px;
+}
+
+.sub-title {
+  font-size: 13px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.header-menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-list {
+  margin-right: 10px;
+}
+
+.menu-list > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  min-height: calc(100vh - 80px);
+}
+
+.first-view {
+  width: 100%;
+}
+
+.main-image {
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.side-menu {
+  width: 25%;
+  margin-right: 30px;
+}
+
+.side-menu-item {
+  margin-bottom: 5px;
+  padding: 0px 15px;
+  background-color: #ddeef7;
+}
+
+.side-menu-item > img{
+  vertical-align: middle;
+}
+
+.side-menu-item > span {
+  margin-left: 10px;
+  line-height: 49px;
+  font-weight: bold;
+}
+
+.information {
+  width: 75%;
+}
+
+h2 {
+  margin-bottom:10px;
+  font-size: 17px;
+}
+
+table {
+  width: 100%;
+  
+}
+
+tr {
+  width: 100%;
+}
+
+tr:nth-child(odd) {
+  background-color: #F7F7F7;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding: 0 10px;
+  background-color: #63abd4;
+  color: #FFF;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-menu {
+  display: flex;
+  list-style: none;
+}
+
+.footer-left a {
+  color: #FFF;
+}
